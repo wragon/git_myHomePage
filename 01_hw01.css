@@ -1,0 +1,47 @@
+  table, th, td {
+    border: 2px solid black;
+  }
+  table{
+    text-align:left;
+    margin:auto;
+   }
+  th, td {
+    padding: 2px;
+  }
+  th {
+    text-align: center;
+  }/*
+  p.gender{
+    position:absolute;
+    background-color: white;
+    top:123.9%;
+  }
+  form div.gender{
+    padding:15px;
+    border: 2px solid black;
+  }
+  body{
+    margin-left:10%;
+}
+
+div.Main > header > div, section{
+    display:inline-block;
+}
+
+div.Main > header > section{
+    margin-left:65%;
+}
+
+div.Main > hr{
+    margin-right:10%
+}
+
+div.Main > div.body > div.my_body > h2{
+    font-weight: 400;
+    font-size: 2em;
+}
+
+div.Main > div.body > div.my_body > img{
+    float:left;
+}
+*/

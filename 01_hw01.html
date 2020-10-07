@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="01_hw01.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="webDeveloper.png" alt="None" width = "350" height = "128">
+    <h1>About</h1>
+    <p>It can be intimidating for women to learn and ask questions when they are in an <b>extreme minority</b>.
+         While open and welcoming, today's budding developer community is up to <b>91% male</b>.
+         If we can empower more females with the confidence in their technological capabilities <i>we can begin to change the landscape</i>.
+    </p>
+    <br>
+    <h2>Our Locations</h2>
+    <ul>
+        <li>
+            USA
+            <ul>
+                <li><a href="#" target="_self">New York</a></li>
+                <li><a href="#" target="_self">Columbus</a></li>
+                <li><a href="#" target="_self">Austin</a></li>
+                <li><a href="#" target="_self">Philly</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            World
+            <ul>
+                <li><a href="#" target="_self">Ottawa</a></li>
+                <li><a href="#" target="_self">Sydney</a></li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <h2>Upcoming Classes</h2>
+    <table style="width:18%">
+        <tr>
+          <th>Location</th>
+          <th>Topic</th> 
+        </tr>
+        <tr>
+          <td>New York</td>
+          <td>Javascript &amp JQuery</td>
+        </tr>
+        <tr>
+          <td>San Francisco</td>
+          <td>HTML &amp CSS</td>
+        </tr>
+    </table>
+    <br>
+    <h2>Sign Up!</h2>
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value=""><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value=""><br>
+
+        <label for="city">Location:</label>
+        <select id="city" name="city">
+          <option value="1">San Francisco</option>
+          <option value="2">Seoul</option>
+          <option value="3">Cambodia</option>
+        </select>
+        
+        
+        <fieldset>
+          <legend>Gender:</legend>
+          <input type="radio" id="male" name="sex" value="male">
+          <label class="gender" for="male">Male</label>
+          <input type="radio" id="female" name="sex" value="female">
+          <label class="gender" for="female">Female</label>
+        </fieldset>
+
+        <legend>Experience:</legend>
+        <textarea name="message" rows="3" cols="30"></textarea>
+        <br>
+    </form> 
+    <button onclick="">Sign up</button>
+</body>
+</html>

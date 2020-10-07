@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="02_hw02.css">
+    <link rel="stylesheet" href="02_grid.css">
+    <link rel="stylesheet" href="02_travel.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-6 profile-image-box">
+                <img src="soonsil.jpg" alt="Profile Loge Image" class="profile-image">
+            </div>
+            <div class="col-6 profile-title">
+                <h1 class="name-title">KimJunYong</h1>
+                <h4 class="name-title">20160356</h4>
+            </div>
+        </header>
+        <hr class="long">
+        <div class="row">
+            <div class="col-12 feature-title">
+                <h2>International Travel</h2>
+                <br>
+                <h3>CAMBODIA</h3>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="cambodia1.jpg">
+                    <img src="cambodia1.jpg" alt="cambodia1" width="600" height="400">
+                    </a>
+                    <div class="explan">Angkor Wat1</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="cambodia3.jpg">
+                    <img src="cambodia3.jpg" alt="cambodia3" width="600" height="400">
+                    </a>
+                    <div class="explan">Angkor Wat2</div>
+                </div>
+            </div>
+            <div class="responsive">  
+                <div class="gallery">
+                    <a target="_blank" href="cambodia2.jpg">
+                    <img src="cambodia2.jpg" alt="cambodia2" width="600" height="400">
+                    </a>
+                    <div class="explan">Angkor Wat3</div>
+                </div>
+            </div>
+                <div class="responsive">  
+                <div class="gallery">
+                    <a target="_blank" href="cambodia4.jpg">
+                    <img src="cambodia4.jpg" alt="cambodia4" width="600" height="400">
+                    </a>
+                    <div class="explan">with snake</div>
+                </div>
+            </div>        
+        </div>
+        <p id="input"></p>
+        <button type="button" onclick="c_Funtion()">세부 설명</button>
+        <script src="02_script.js"></script>
+        <br>
+        <hr class="short">
+        <div class="row">
+            <div class="col-12 feature-title">
+                <h3>TOKYO</h3>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="japan1.jpg">
+                    <img src="japan1.jpg" alt="japan1" width="600" height="400">
+                    </a>
+                    <div class="explan">Odaiba, Tokyo, Japan</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="japan2.jpg">
+                    <img src="japan2.jpg" alt="japan2" width="600" height="400">
+                    </a>
+                    <div class="explan">Tokyo Tower</div>
+                </div>
+            </div>
+            <div class="responsive">  
+                <div class="gallery">
+                    <a target="_blank" href="japan3.jpg">
+                    <img src="japan3.jpg" alt="japan3" width="600" height="400">
+                    </a>
+                    <div class="explan">Tokyo hot-springs resort</div>
+                </div>
+            </div>
+                <div class="responsive">  
+                <div class="gallery">
+                    <a target="_blank" href="japan4.jpg">
+                    <img src="japan4.jpg" alt="japan4" width="600" height="400">
+                    </a>
+                    <div class="explan">Rice with Grilled Eel</div>
+                </div>
+            </div>
+        </div>
+        <p id="input1"></p>
+        <button type="button" onclick="j_Funtion()">세부 설명</button>
+        <script src="02_script.js"></script>
+        <br>
+        <hr class="short">
+        <div class="row">
+            <div class="col-12 feature-title">
+                <h3>HONG KONG</h3>
+            </div>
+            <div class="responsive">  
+                <div class="gallery">
+                    <a target="_blank" href="hongkong3.jpg">
+                    <img src="hongkong3.jpg" alt="hongkong3" width="600" height="400">
+                    </a>
+                    <div class="explan">in Hong Kong</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="hongkong1.jpg">
+                    <img src="hongkong1.jpg" alt="hongkong1" width="600" height="400">
+                    </a>
+                    <div class="explan">Peak Tram</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="hongkong2.jpg">
+                    <img src="hongkong2.jpg" alt="hongkong2" width="600" height="400">
+                    </a>
+                    <div class="explan">Night Market</div>
+                </div>
+            </div>
+            <div class="responsive">  
+                <div class="gallery">
+                    <a target="_blank" href="hongkong4.jpg">
+                    <img src="hongkong4.jpg" alt="hongkong4" width="600" height="400">
+                    </a>
+                    <div class="explan">Hong Kong Ocean Park</div>
+                </div>
+            </div>
+        </div>
+        <p id="input2"></p>
+        <button type="button" onclick="h_Funtion()">세부 설명</button>
+        <script src="02_script.js"></script>
+        <br>
+        <hr class="short">
+        <div class="row">
+            <div class="col-12 feature-title">
+                <h3>KOTA KINABALU</h3>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="kota1.jpg">
+                    <img src="kota1.jpg" alt="kota1" width="600" height="400">
+                    </a>
+                    <div class="explan">Jesselton Point</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="kota2.jpg">
+                    <img src="kota2.jpg" alt="kota2" width="600" height="400">
+                    </a>
+                    <div class="explan">Manukan Island</div>
+                </div>
+            </div>
+            <div class="responsive">  
+                <div class="gallery">
+                    <a target="_blank" href="kota3.jpg">
+                    <img src="kota3.jpg" alt="kota3" width="600" height="400">
+                    </a>
+                    <div class="explan">The Pacific Sutera</div>
+                </div>
+            </div>
+                <div class="responsive">  
+                <div class="gallery">
+                    <a target="_blank" href="kota4.jpg">
+                    <img src="kota4.jpg" alt="kota4" width="600" height="400">
+                    </a>
+                    <div class="explan">Pacific Sutera sunset</div>
+                </div>
+            </div>
+        </div>
+        <p id="input3"></p>
+        <button type="button" onclick="co_Funtion()">세부 설명</button>
+        <script src="02_script.js"></script>
+        <br>
+        <footer>
+            <p>kingjykim@naver.com</p>
+        </footer>
+    </div>
+</body>
+</html>
