@@ -1,12 +1,11 @@
 # git_myHomePage
 간단하게 html, css, javascript를 사용하여 나만의 홈페이지 제작
 
----
-### 실행 방법
+## 실행 방법
 02_hw02.html만 다운 받아도 실행 가능
 
----
-### 구성
+
+## 구성
 > 1. html
 >    - 02_hw02.html
 >    - 02_travel.html
